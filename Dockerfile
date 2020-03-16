@@ -10,6 +10,6 @@ RUN apt-get update
 RUN apt-get install -y yarn
 
 # Install awscli
-RUN apt-get install -y python-dev python-pip jq
+RUN apt-get install -y python-dev python-pip jq openssh-client
 
 RUN pip install awscli
